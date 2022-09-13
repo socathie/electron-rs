@@ -14,7 +14,7 @@ pub enum VerifierError {
 }
 
 #[derive(BorshSerialize, BorshDeserialize, Debug, PartialEq, Clone)]
-struct BigInteger256 {
+pub struct BigInteger256 {
     val: [u64; 4],
 }
 
